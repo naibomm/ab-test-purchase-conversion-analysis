@@ -36,11 +36,15 @@
 ---
 
 ### Расчёт выборки
-[ab_test_design_sample_size](./ab-test-calculation-2026-07-28.png) ИЛИ https://drive.google.com/file/d/1k1sPyDHCJ_HkHIEBeNfUpF79iQQGOYvY/view?usp=sharing
+Ссылка на сайт с расчётом: https://abntester.ru/?lang=ru&uiMode=pro&mode=effect-to-sample&comparison=control-vs-tests&alpha=5&correction=bonferroni&metrics=%5B%7B%22n%22%3A%22Purchase+conversion%22%2C%22d%22%3A%22binary%22%2C%22a%22%3A%22right-sided%22%2C%22b%22%3A19.2%2C%22v%22%3A25%2C%22be%22%3A20%2C%22m%22%3A3%7D%5D&variations=%5B%7B%22n%22%3A%22Control%22%2C%22p%22%3A50%7D%2C%7B%22n%22%3A%22Test+variation+1%22%2C%22p%22%3A50%7D%5D
+
+Скриншот: [ab_test_design_sample_size](./ab-test-calculation-2026-07-28.png) ИЛИ https://drive.google.com/file/d/1k1sPyDHCJ_HkHIEBeNfUpF79iQQGOYvY/view?usp=sharing
 - **α = 0.05** (односторонний), **β = 0.20** (мощность 80%).
 - **MDE = 3 п.п.**, базовый уровень 19.2%.
 - Необходимый размер выборки – **~4 506 пользователей** (по ~2 253 на группу).
 - Длительность теста – **14 дней** (7 дней на набор + 7 наблюдений).
+
+![img](https://github.com/naibomm/ab-test-purchase-conversion-analysis/blob/main/ab-test-calculation-2026-07-28.png)
 
 ---
 
