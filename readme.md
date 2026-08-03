@@ -44,7 +44,7 @@
 - Необходимый размер выборки – **~4 506 пользователей** (по ~2 253 на группу).
 - Длительность теста – **14 дней** (7 дней на набор + 7 наблюдений).
 
-<img src="https://github.com/naibomm/ab-test-purchase-conversion-analysis/blob/main/ab-test-calculation-2026-07-28.png" width="100">
+<img src="https://github.com/naibomm/ab-test-purchase-conversion-analysis/blob/main/ab-test-calculation-2026-07-28.png" width="500">
 
 ---
 
